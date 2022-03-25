@@ -1,4 +1,4 @@
-function absoluteValuesSumMinimization(a: number[]): number {
+export function absoluteValuesSumMinimization(a: number[]): number {
 
     const half = Math.ceil(a.reduce((s, i) => s + i, 0) / 2);
     
